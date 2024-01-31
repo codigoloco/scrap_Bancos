@@ -1,0 +1,5 @@
+ejecutas el main
+
+cargas los datos necesarios
+
+ el crea una carpeta DB donde va a guardar la base de datos
