@@ -12,11 +12,7 @@ def LEER_2():
 def CargarCorreo():
     con = sqlite3.connect('DB/config.db')
     cursor=con.cursor()
-    #Variables 
-    # correo="testmovimientosqsl@gmail.com"
-    # host='smtp.gmail.com'
-    # puerto=465
-    # pas="utsf rynk rkbv bxku" 
+
     correo=input("Indique correo a configurar:   ").lower()
     host=input("indique host a configurar:       ")
     puerto=input("indique el puerto del correo:  ")
