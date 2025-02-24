@@ -6,8 +6,7 @@ import time
 from selenium.webdriver.support import expected_conditions as EC
 
 
-VC_U='JGQUINTERO'
-VC_P='Qscom28.'
+
 # Inicializar el driver
 driver = webdriver.Edge()
 driver.get("https://vob.venezolano.com/")  # Reemplaza con tu URL
